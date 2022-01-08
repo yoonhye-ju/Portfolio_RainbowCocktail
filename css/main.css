@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html, body{ margin:0; padding:0; width:100%; height:100%; position:relative;}
+body{overflow:hidden;;}
+ul, li, ol{list-style: none;}
+a{text-decoration: none;}
+
+
+header{width: 100%; height: 50px; background-color: #f591a2; display: flex;}
+#headerLeft{width: 80%; height: auto; display: flex; justify-content: right;}
+.logoBox{width:75%; height: auto; display: flex; justify-content: center; align-items: center;}
+h4{margin-left: 10px; font-family: 'Baloo 2', cursive; font-size: 20px; color:white;}
+#headerRight{width: 20%; height: auto; display: flex; justify-content: left; align-items: center;}
+.search{width:200px; height: 25px; border: none; border-radius: 10px; opacity: 0.5; position: relative;}
+.search::placeholder{padding-left: 10px;}
+.search:focus{padding-left: 10px;}
+.iconSearch{position:absolute; right: 10%; cursor: pointer;}
+
+.wrap{width:500%; height:100%; position:relative;}
+.box{width:calc(100%/5); height:100%; position:relative; float:left;}
+
+.cocktailBox1{display: flex; height: 100%; animation: fadein 1s;}
+@keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
+.cocktailBox1 li{flex: 1; height: 100%; transition: all 1s; background: no-repeat center cover; filter: brightness(65%); padding-right: 1%;}
+.cocktailBox1 li:hover{flex: 1.5; filter: brightness(100%); transition: 0.3s ease-in-out;}
+.cocktailBox1 li:nth-child(1){background-image: url(../img/cocktailD.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(2){background-image: url(../img/cocktailR.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(3){background-image: url(../img/cocktailJ.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(4){background-image: url(../img/cocktailS.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(5){background-image: url(../img/cocktailC.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li .cocktailText{opacity: 0;}
+.cocktailBox1 li:hover .cocktailText{opacity:1; transition: all 0.4s; font-size: 50px; text-shadow: 0 0 5px black; text-align: right; margin-top: 750px; letter-spacing: 3px; font-weight: lighter; color: white; display: block; cursor: pointer;}
+  
