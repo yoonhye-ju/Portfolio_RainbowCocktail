@@ -24,4 +24,3 @@ $(document).ready(function () {
 		$(".wrap").stop().animate({ left: -n * 100 + "%" });
 	});
 });
-

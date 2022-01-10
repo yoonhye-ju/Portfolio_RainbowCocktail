@@ -24,11 +24,65 @@ h4{margin-left: 10px; font-family: 'Baloo 2', cursive; font-size: 20px; color:wh
 @keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
 .cocktailBox1 li{flex: 1; height: 100%; transition: all 1s; background: no-repeat center cover; filter: brightness(65%); padding-right: 1%;}
 .cocktailBox1 li:hover{flex: 1.5; filter: brightness(100%); transition: 0.3s ease-in-out;}
-.cocktailBox1 li:nth-child(1){background-image: url(../img/cocktailD.jpg); background-size: cover; background-position: center;}
-.cocktailBox1 li:nth-child(2){background-image: url(../img/cocktailR.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(1){background-image: url(../img/cocktailS.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(2){background-image: url(../img/cocktailZ.jpg); background-size: cover; background-position: center;}
 .cocktailBox1 li:nth-child(3){background-image: url(../img/cocktailJ.jpg); background-size: cover; background-position: center;}
-.cocktailBox1 li:nth-child(4){background-image: url(../img/cocktailS.jpg); background-size: cover; background-position: center;}
-.cocktailBox1 li:nth-child(5){background-image: url(../img/cocktailC.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(4){background-image: url(../img/cocktailR.jpg); background-size: cover; background-position: center;}
+.cocktailBox1 li:nth-child(5){background-image: url(../img/cocktailD.jpg); background-size: cover; background-position: center;}
 .cocktailBox1 li .cocktailText{opacity: 0;}
-.cocktailBox1 li:hover .cocktailText{opacity:1; transition: all 0.4s; font-size: 50px; text-shadow: 0 0 5px black; text-align: right; margin-top: 750px; letter-spacing: 3px; font-weight: lighter; color: white; display: block; cursor: pointer;}
+.cocktailBox1 li:hover .cocktailText{opacity:1; transition: all 0.3s; font-size: 50px; text-shadow: 0 0 5px black; text-align: right; margin-top: 750px; font-weight: lighter; color: white; display: block; cursor: pointer; font-family: 'Pacifico', cursive;}
+
+
+.cocktailBox2{display: flex; height: 100%; animation: fadein 1s;}
+@keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
+.cocktailBox2 li{flex: 1; height: 100%; transition: all 1s; background: no-repeat center cover; filter: brightness(65%); padding-right: 1%;}
+.cocktailBox2 li:hover{flex: 1.5; filter: brightness(100%); transition: 0.3s ease-in-out;}
+.cocktailBox2 li:nth-child(1){background-image: url(../img/cocktailX.jpg); background-size: cover; background-position: center;}
+.cocktailBox2 li:nth-child(2){background-image: url(../img/cocktailC.jpg); background-size: cover; background-position: center;}
+.cocktailBox2 li:nth-child(3){background-image: url(../img/cocktailF.jpg); background-size: cover; background-position: center;}
+.cocktailBox2 li:nth-child(4){background-image: url(../img/cocktailT.jpg); background-size: cover; background-position: center;}
+.cocktailBox2 li:nth-child(5){background-image: url(../img/cocktailK.jpg); background-size: cover; background-position: center;}
+.cocktailBox2 li .cocktailText{opacity: 0;}
+.cocktailBox2 li:hover .cocktailText{opacity:1; transition: all 0.3s; font-size: 50px; text-shadow: 0 0 5px black; text-align: right; margin-top: 750px; font-weight: lighter; color: white; display: block; cursor: pointer; font-family: 'Pacifico', cursive;}
+
+
+.cocktailBox3{display: flex; height: 100%; animation: fadein 1s;}
+@keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
+.cocktailBox3 li{flex: 1; height: 100%; transition: all 1s; background: no-repeat center cover; filter: brightness(65%); padding-right: 1%;}
+.cocktailBox3 li:hover{flex: 1.5; filter: brightness(100%); transition: 0.3s ease-in-out;}
+.cocktailBox3 li:nth-child(1){background-image: url(../img/cocktailB.jpg); background-size: cover; background-position: center;}
+.cocktailBox3 li:nth-child(2){background-image: url(../img/cocktailH.jpg); background-size: cover; background-position: center;}
+.cocktailBox3 li:nth-child(3){background-image: url(../img/cocktailO.jpg); background-size: cover; background-position: center;}
+.cocktailBox3 li:nth-child(4){background-image: url(../img/cocktailL.jpg); background-size: cover; background-position: center;}
+.cocktailBox3 li:nth-child(5){background-image: url(../img/cocktailN.jpg); background-size: cover; background-position: center;}
+.cocktailBox3 li .cocktailText{opacity: 0;}
+.cocktailBox3 li:hover .cocktailText{opacity:1; transition: all 0.3s; font-size: 50px; text-shadow: 0 0 5px black; text-align: right; margin-top: 750px; font-weight: lighter; color: white; display: block; cursor: pointer; font-family: 'Pacifico', cursive;}
+
+
+.cocktailBox4{display: flex; height: 100%; animation: fadein 1s;}
+@keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
+.cocktailBox4 li{flex: 1; height: 100%; transition: all 1s; background: no-repeat center cover; filter: brightness(65%); padding-right: 1%;}
+.cocktailBox4 li:hover{flex: 1.5; filter: brightness(100%); transition: 0.3s ease-in-out;}
+.cocktailBox4 li:nth-child(1){background-image: url(../img/cocktailE.jpg); background-size: cover; background-position: center;}
+.cocktailBox4 li:nth-child(2){background-image: url(../img/cocktailY.jpg); background-size: cover; background-position: center;}
+.cocktailBox4 li:nth-child(3){background-image: url(../img/cocktailA.jpg); background-size: cover; background-position: center;}
+.cocktailBox4 li:nth-child(4){background-image: url(../img/cocktailQ.jpg); background-size: cover; background-position: center;}
+.cocktailBox4 li:nth-child(5){background-image: url(../img/cocktailM.jpg); background-size: cover; background-position: center;}
+.cocktailBox4 li .cocktailText{opacity: 0;}
+.cocktailBox4 li:hover .cocktailText{opacity:1; transition: all 0.3s; font-size: 50px; text-shadow: 0 0 5px black; text-align: right; margin-top: 750px; font-weight: lighter; color: white; display: block; cursor: pointer; font-family: 'Pacifico', cursive;}
+
+
+.cocktailBox5{display: flex; height: 100%; animation: fadein 1s;}
+@keyframes fadein {from {opacity: 0;} to { opacity: 1;}}
+.cocktailBox5 li{flex: 1; height: 100%; transition: all 1s; background: no-repeat center cover; filter: brightness(65%); padding-right: 1%;}
+.cocktailBox5 li:hover{flex: 1.5; filter: brightness(100%); transition: 0.3s ease-in-out;}
+.cocktailBox5 li:nth-child(1){background-image: url(../img/cocktailG.jpg); background-size: cover; background-position: center;}
+.cocktailBox5 li:nth-child(2){background-image: url(../img/cocktailP.jpg); background-size: cover; background-position: center;}
+.cocktailBox5 li:nth-child(3){background-image: url(../img/cocktailU.jpg); background-size: cover; background-position: center;}
+.cocktailBox5 li:nth-child(4){background-image: url(../img/cocktailI.jpg); background-size: cover; background-position: center;}
+.cocktailBox5 li:nth-child(5){background-image: url(../img/cocktailbar.jpg); background-size: cover; background-position: center;}
+.cocktailBox5 li .cocktailText{opacity: 0;}
+.cocktailBox5 li:not(:last-child):hover .cocktailText{opacity:1; transition: all 0.3s; font-size: 50px; text-shadow: 0 0 5px black; text-align: right; margin-top: 750px; font-weight: lighter; color: white; display: block; cursor: pointer; font-family: 'Pacifico', cursive;}
+
+.cocktailBox5 li:nth-child(5):hover .cocktailText{opacity:1; transition: all 0.1s; font-size: 30px; text-align: right; margin-top: 730px; color: white; display: block; font-family: 'Baloo 2', cursive; line-height: 40px; text-shadow: 0 0 5px black;}
   
