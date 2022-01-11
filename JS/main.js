@@ -1,3 +1,9 @@
+// $(document).ready(function(){
+// 	$('#loading').css({opcity: 1}, function(){
+// 		$(this).css({opcity:0});
+// 	});
+// });
+
 $(document).ready(function () {
 	var bn = $(".box").length;
 	$(".box").on("mousewheel DOMMouseScroll", function (e) {
@@ -24,3 +30,4 @@ $(document).ready(function () {
 		$(".wrap").stop().animate({ left: -n * 100 + "%" });
 	});
 });
+

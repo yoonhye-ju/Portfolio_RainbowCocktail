@@ -7,6 +7,45 @@ ul, li, ol{list-style: none;}
 a{text-decoration: none;}
 
 
+#loading{width: 100%; height: 100%; position: absolute; animation-name: load;}
+span{font-family: 'ONE-Mobile-POP'; font-size: 35px; color: white;}
+.loading_box{position: absolute; top: 45%; left: 42%; z-index: 10;}
+.text{display:inline-block;}
+
+.moving{position: absolute; top: 5px; animation-name: textbox; animation-duration: 0.5s; animation-iteration-count: 1;}
+.move{position: absolute; top: 10px; animation-name: textbox; animation-duration: 0.5s; animation-iteration-count: 1; animation-timing-function: linear;}
+.logo{margin-left: -30px;}
+.n{margin-left: 30px; animation-delay: 0.2s;}
+.o{margin-left: 60px; animation-delay: 0.5s;}
+.w{margin-left: 90px; animation-delay: 0.8s;}
+.l{margin-left: 135px; animation-delay: 1.1s;}
+.oo{margin-left: 155px; animation-delay: 1.4s;}
+.a{margin-left: 185px; animation-delay: 1.7s;}
+.d{margin-left: 215px; animation-delay: 2.0s;}
+.i{margin-left: 240px; animation-delay: 2.3s;}
+.nn{margin-left: 255px; animation-delay: 2.6s;}
+.g{margin-left: 285px; animation-delay: 2.9s;}
+.bk{width: 100%; height: 100%; position: absolute; background-color: #f591a2; opacity: 0.6; z-index: 8;}
+
+@keyframes textbox{
+  from{
+    top: 20px;
+  }
+  to{
+    top: -10px;
+  }
+}
+
+@keyframes load{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+
 header{width: 100%; height: 50px; background-color: #f591a2; display: flex;}
 #headerLeft{width: 80%; height: auto; display: flex; justify-content: right;}
 .logoBox{width:75%; height: auto; display: flex; justify-content: center; align-items: center;}
