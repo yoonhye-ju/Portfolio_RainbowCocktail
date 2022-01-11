@@ -1,6 +1,6 @@
-// $(document).ready(function(){
-// 	$('#loading').css({opcity: 1}, function(){
-// 		$(this).css({opcity:0});
+// $(document).ready(function () {
+// 	$("#loading").on("click", function () {
+// 		$('.loading_box').animate(hide(5000));
 // 	});
 // });
 

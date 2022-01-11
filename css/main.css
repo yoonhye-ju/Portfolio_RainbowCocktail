@@ -7,7 +7,7 @@ ul, li, ol{list-style: none;}
 a{text-decoration: none;}
 
 
-#loading{width: 100%; height: 100%; position: absolute; animation-name: load;}
+/* #loading{width: 100%; height: 100%; position: absolute;}
 span{font-family: 'ONE-Mobile-POP'; font-size: 35px; color: white;}
 .loading_box{position: absolute; top: 45%; left: 42%; z-index: 10;}
 .text{display:inline-block;}
@@ -25,7 +25,7 @@ span{font-family: 'ONE-Mobile-POP'; font-size: 35px; color: white;}
 .i{margin-left: 240px; animation-delay: 2.3s;}
 .nn{margin-left: 255px; animation-delay: 2.6s;}
 .g{margin-left: 285px; animation-delay: 2.9s;}
-.bk{width: 100%; height: 100%; position: absolute; background-color: #f591a2; opacity: 0.6; z-index: 8;}
+.bk{width: 100%; height: 100%; position: absolute; background-color: #f591a2; z-index: 8;opacity: 0.6;}
 
 @keyframes textbox{
   from{
@@ -34,17 +34,7 @@ span{font-family: 'ONE-Mobile-POP'; font-size: 35px; color: white;}
   to{
     top: -10px;
   }
-}
-
-@keyframes load{
-  from{
-    opacity: 1;
-  }
-  to{
-    opacity: 0;
-  }
-}
-
+} */
 
 header{width: 100%; height: 50px; background-color: #f591a2; display: flex;}
 #headerLeft{width: 80%; height: auto; display: flex; justify-content: right;}
